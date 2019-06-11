@@ -29,6 +29,7 @@ class Register extends Component{
         }
     }
 
+     //here we are updating the local state with redux store errors using nextProps
     componentWillReceiveProps(nextProps) {
         if(nextProps.errors){
             this.setState({errors:nextProps.errors});
@@ -108,6 +109,7 @@ class Register extends Component{
     }
 }
 
+//this is a best practise where other developers can easily understand what props and there types to be passed to this component
 Register.propTypes = {
     registeruser:PropTypes.func.isRequired,
     auth: PropTypes.object.isRequired,
@@ -118,5 +120,5 @@ const  mapStateToProps = (state) =>({
     auth: state.auth,
     errors: state.errors
 });
-
+//here we add withRouter because we are directing after succesfully registering in registeruser tomlogin page
 export default connect(mapStateToProps,{registeruser})(withRouter(Register));

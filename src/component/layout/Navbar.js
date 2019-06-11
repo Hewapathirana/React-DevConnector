@@ -22,7 +22,7 @@ class Navbar extends Component{
                    <a href="" onClick={this.onLogoutClick.bind(this)} className="nav-link">
 
                        <img className="rounded-circle"
-                           src={user.avatar} alt={user.name} style={{width:'25px' , marginRigtht: '5px'}}
+                           src={user.avatar} alt={user.username} style={{width:'25px' , marginRigtht: '5px'}}
                             />
 
                        { ' '}
