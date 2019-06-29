@@ -11,8 +11,8 @@ import Footer from "./component/layout/Footer";
 import Landing from "./component/layout/Landing";
 import Register from "./auth/Register";
 import Login from "./auth/Login";
-
-
+import Dashboard from './component/dashboard/Dashboard';
+import {clearCurrentProfile} from "./actions/profileActions";
 //check for token
 
 if(localStorage.jwtToken){
@@ -34,6 +34,8 @@ if(localStorage.jwtToken){
         store.dispatch(logoutUSer);
 
         //clear current profile
+        store.dispatch(clearCurrentProfile());
+
         //redirect to login
         window.location.href = '/login';
 
@@ -55,6 +57,7 @@ class App extends Component{
            <div className="container">
                <Route exact path="/register" component={Register}/>
                <Route  exact path="/login" component={Login}/>
+               <Route  exact path="/dashboard" component={Dashboard}/>
 
            </div>
           <Footer/>

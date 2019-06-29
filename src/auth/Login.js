@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
 import {loginUser} from "../actions/authActions";
+import { withRouter } from 'react-router-dom';
 import classnames from 'classnames';
 
 
@@ -25,7 +26,9 @@ class Login extends Component{
 
 
     componentDidMount() {
+        console.log(" login outside this.props.auth.isAuthenticated = ",this.props.auth.isAuthenticated);
         if(this.props.auth.isAuthenticated){
+            console.log(" login this.props.auth.isAuthenticated = ",this.props.auth.isAuthenticated);
             this.props.history.push('/dashboard');
         }
     }
@@ -95,14 +98,14 @@ class Login extends Component{
     }
 }
 
-Login.propTypes = {
+/*Login.propTypes = {
     loginUser: PropTypes.func.isRequired,
     auth: PropTypes.object.isRequired,
     errors: PropTypes.object.isRequired
-}
+}*/
 
 const mapStateToProps = (state) =>({
     auth: state.auth,
     errors: state.errors
 });
-export default connect(mapStateToProps,{loginUser})(Login);
+export default connect(mapStateToProps,{loginUser})(withRouter(Login));
