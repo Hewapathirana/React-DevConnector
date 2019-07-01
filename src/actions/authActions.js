@@ -62,4 +62,8 @@ export const logoutUSer =  () => dispatch =>{
     //set the current user to empty object which will set is authenticated to false
 
     dispatch(setCurrentUser({}));
+
+
+      //why we cant use this once logout
+    //window.location = '/login';
 }

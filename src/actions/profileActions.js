@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import {GET_PROFILE,PROFILE_LOADING,GET_ERRORS,CLEAR_CURRENT_PROFILE} from "./type";
+import {GET_PROFILE,PROFILE_LOADING,CLEAR_CURRENT_PROFILE} from "./type";
 
 //get current profile
 
