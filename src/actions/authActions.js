@@ -63,7 +63,4 @@ export const logoutUSer =  () => dispatch =>{
 
     dispatch(setCurrentUser({}));
 
-
-      //why we cant use this once logout
-    //window.location = '/login';
 }
