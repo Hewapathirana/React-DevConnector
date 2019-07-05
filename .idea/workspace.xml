@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb735fb-536a-4e28-8857-eedaef195b93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/add-credentials/AddEducation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/add-credentials/AddExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/profileActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/profileActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/add-credentials/AddEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/add-credentials/AddEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/dashboard/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/dashboard/Experience.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,32 +25,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/dashboard/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/profileActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="77" column="34" lean-forward="true" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddExperience.js">
+        <entry file="file://$PROJECT_DIR$/src/component/dashboard/Experience.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="901">
+              <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -56,10 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddEducation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="72" column="91" lean-forward="true" selection-start-line="72" selection-start-column="91" selection-end-line="72" selection-end-column="91" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="86" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="86" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -68,18 +68,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddEducation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/create-profile/CreateProfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4301">
+            <state relative-caret-position="4165">
               <caret line="253" column="47" selection-start-line="253" selection-start-column="47" selection-end-line="253" selection-end-column="47" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -113,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/validation/is-empty.js" />
         <option value="$PROJECT_DIR$/src/component/layout/Landing.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/auth/Register.js" />
         <option value="$PROJECT_DIR$/src/actions/type.js" />
@@ -127,19 +117,22 @@
         <option value="$PROJECT_DIR$/src/component/common/textFieldGroup.js" />
         <option value="$PROJECT_DIR$/src/component/create-profile/CreateProfile.js" />
         <option value="$PROJECT_DIR$/src/actions/authActions.js" />
-        <option value="$PROJECT_DIR$/src/component/dashboard/Dashboard.js" />
         <option value="$PROJECT_DIR$/src/component/edit-profile/EditProfile.js" />
         <option value="$PROJECT_DIR$/src/component/layout/Navbar.js" />
         <option value="$PROJECT_DIR$/src/component/add-credentials/AddExperience.js" />
-        <option value="$PROJECT_DIR$/src/component/add-credentials/AddEducation.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/component/add-credentials/AddEducation.js" />
         <option value="$PROJECT_DIR$/src/actions/profileActions.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/component/dashboard/Experience.js" />
+        <option value="$PROJECT_DIR$/src/component/dashboard/Dashboard.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="761" />
+    <option name="x" value="-145" />
+    <option name="y" value="15" />
+    <option name="width" value="866" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -147,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,31 +151,18 @@
             <path>
               <item name="clientx" type="b2602c69:ProjectViewProjectNode" />
               <item name="clientx" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientx" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clientx" type="b2602c69:ProjectViewProjectNode" />
               <item name="clientx" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clientx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="add-credentials" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +219,8 @@
       <workItem from="1561713378670" duration="15187000" />
       <workItem from="1561908086389" duration="9197000" />
       <workItem from="1562043201825" duration="7823000" />
-      <workItem from="1562051786893" duration="21490000" />
+      <workItem from="1562051786893" duration="21888000" />
+      <workItem from="1562305133413" duration="12688000" />
     </task>
     <task id="LOCAL-00001" summary="SET UP THE REDUX">
       <created>1558250877091</created>
@@ -324,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562231651689</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="done experience without functions">
+      <created>1562242477091</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562242477091</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183212000" />
+    <option name="totallyTimeSpent" value="196298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -358,6 +347,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SET UP THE REDUX" />
     <MESSAGE value="did the auth with redux and retrive data after log in using redux between components." />
@@ -370,7 +385,8 @@
     <MESSAGE value="solved the routing error when token expire" />
     <MESSAGE value="delete profile" />
     <MESSAGE value="done edit profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="done edit profile" />
+    <MESSAGE value="done experience without functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="done experience without functions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
@@ -460,13 +476,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -601,34 +610,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/dashboard/Education.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/dashboard/ProfileActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/create-profile/CreateProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4301">
-          <caret line="253" column="47" selection-start-line="253" selection-start-column="47" selection-end-line="253" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,37 +639,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddEducation.js">
+    <entry file="file://$PROJECT_DIR$/src/component/create-profile/CreateProfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="72" column="91" lean-forward="true" selection-start-line="72" selection-start-column="91" selection-end-line="72" selection-end-column="91" />
+        <state relative-caret-position="4165">
+          <caret line="253" column="47" selection-start-line="253" selection-start-column="47" selection-end-line="253" selection-end-column="47" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/profileActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="77" column="34" lean-forward="true" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddExperience.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="86" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/profileActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/dashboard/Education.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/add-credentials/AddEducation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/dashboard/Experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

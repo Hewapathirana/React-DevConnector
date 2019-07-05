@@ -3,8 +3,13 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Moment from 'react-moment';
 import { deleteExperience } from '../../actions/profileActions';
+import { withRouter } from 'react-router-dom';
+
+
 
 class Experience extends Component {
+
+
   onDeleteClick(id) {
     this.props.deleteExperience(id);
   }
@@ -24,7 +29,7 @@ class Experience extends Component {
         </td>
         <td>
           <button
-            onClick={this.onDeleteClick.bind(this, exp._id)}
+            onClick={this.onDeleteClick.bind(this, exp.id)}
             className="btn btn-danger"
           >
             Delete
@@ -55,4 +60,4 @@ Experience.propTypes = {
   deleteExperience: PropTypes.func.isRequired
 };
 
-export default connect(null, { deleteExperience })(Experience);
+export default connect(null, { deleteExperience })(withRouter(Experience));
