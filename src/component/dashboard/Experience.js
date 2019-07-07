@@ -16,7 +16,7 @@ class Experience extends Component {
 
   render() {
     const experience = this.props.experience.map(exp => (
-      <tr key={exp._id}>
+      <tr key={exp.id}>
         <td>{exp.company}</td>
         <td>{exp.title}</td>
         <td>
@@ -60,4 +60,4 @@ Experience.propTypes = {
   deleteExperience: PropTypes.func.isRequired
 };
 
-export default connect(null, { deleteExperience })(withRouter(Experience));
+export default connect(null, { deleteExperience })(Experience);

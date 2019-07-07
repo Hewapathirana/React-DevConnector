@@ -11,7 +11,7 @@ class Education extends Component {
 
   render() {
     const education = this.props.education.map(edu => (
-      <tr key={edu._id}>
+      <tr key={edu.id}>
         <td>{edu.school}</td>
         <td>{edu.degree}</td>
         <td>
@@ -24,7 +24,7 @@ class Education extends Component {
         </td>
         <td>
           <button
-            onClick={this.onDeleteClick.bind(this, edu._id)}
+            onClick={this.onDeleteClick.bind(this, edu.id)}
             className="btn btn-danger"
           >
             Delete

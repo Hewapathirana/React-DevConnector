@@ -35,7 +35,7 @@ class Dashboard extends Component {
                         </p>
                         <ProfileActions />
                         <Experience experience={profile.experiences} />
-                        {/*<Education education={profile.education} />*/}
+                        <Education education={profile.educations} />
                         <div style={{ marginBottom: '60px' }} />
                         <button
                             onClick={this.onDeleteClick.bind(this)}
