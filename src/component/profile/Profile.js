@@ -11,7 +11,7 @@ import { getProfileByHandle } from '../../actions/profileActions';
 
 class Profile extends Component {
   componentDidMount() {
-   //console.log("this.props.profile.experiences %%%%%%%%", this.props.profile.experiences)
+
 
     if (this.props.match.params.handle) {
 
@@ -22,11 +22,11 @@ class Profile extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log("this.props.profile  *****", this.props.profile);
+
     if (nextProps.profile.profile === null && this.props.profile.loading) {
       this.props.history.push('/not-found');
 
-      console.log("this.props.profile  NOT FOUND", this.props.profile);
+
     }
   }
 
@@ -34,7 +34,7 @@ class Profile extends Component {
     const { profile, loading } = this.props.profile;
     let profileContent;
 
-    console.log("profile.experiences",this.props.match.params.experiences );
+
 
 
 
@@ -58,9 +58,9 @@ class Profile extends Component {
             education={profile.educations}
             experience={profile.experiences}
           />
-          {/*{profile.githubusername ? (
+          {profile.githubusername ? (
             <ProfileGithub username={profile.githubusername} />
-          ) : null}*/}
+        ) : null}
         </div>
       );
     }
