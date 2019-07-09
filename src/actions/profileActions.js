@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import {GET_PROFILE,GET_PROFILES,PROFILE_LOADING,CLEAR_CURRENT_PROFILE,GET_ERRORS,SET_CURRENT_USER} from "./type";
+import {GET_PROFILE,GET_PROFILES,PROFILE_LOADING,CLEAR_CURRENT_PROFILE,GET_ERRORS,SET_CURRENT_USER,GET_PROFILES_ERRORS} from "./type";
 
 //get current profile
 export const getCurrentProfile = ()=> dispatch =>{
@@ -152,8 +152,8 @@ export const getProfiles = () => dispatch => {
         )
         .catch(err =>
             dispatch({
-                type: GET_PROFILES,
-                payload: null
+                type: GET_PROFILES_ERRORS,
+                payload: err.response.data
             })
         );
 };
@@ -171,8 +171,8 @@ export const getProfileByHandle = handle => dispatch => {
         )
         .catch(err =>
             dispatch({
-                type: GET_PROFILE,
-                payload: null
+                type: GET_PROFILES_ERRORS,
+                payload: err.response.data
             })
         );
 };

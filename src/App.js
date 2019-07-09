@@ -21,6 +21,8 @@ import AddEducation from "./component/add-credentials/AddEducation";
 import Profiles from './component/profiles/Profiles';
 import Profile from './component/profile/Profile';
 import NotFound from './component/not-found/NotFound';
+import InternalServer from './component/InternalServerError/InternalServer';
+
 //check for token
     if (localStorage.jwtToken) {
     //set auth token header auth
@@ -63,6 +65,7 @@ class App extends Component{
                <Route  exact path="/login" component={Login}/>
                <Route exact path="/profiles" component={Profiles} />
                <Route exact path="/profile/:handle" component={Profile} />
+               <Route path="/500" component={InternalServer} />
                {/*<Route  exact path="/dashboard" component={Dashboard}/>*/}
                <Switch>
                    <PrivateRoute exact path="/dashboard" component={Dashboard} />
