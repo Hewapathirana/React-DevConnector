@@ -11,8 +11,8 @@ const initialState = {
 export default function (state = initialState,action) {
     switch (action.type) {
         case GET_ERRORS:
-
-            if(action.payload.toString().split(" ").includes("Proxy")  && action.payload.toString().split(" ").includes("error:")){
+            console.log(" action.payload.errorcode ************ ",action.errorcode.status);
+            if(action.errorcode.status ==500){
                 //logout user
                 store.dispatch(logoutUSer500());
                 // store.dispatch(logoutUser());
@@ -31,7 +31,7 @@ export default function (state = initialState,action) {
 
             }
         case GET_PROFILES_ERRORS:
-            if(action.payload.toString().split(" ").includes("Proxy")  && action.payload.toString().split(" ").includes("error:")){
+            if(action.errorcode.status ==500){
                 //logout user
                 store.dispatch(logoutUSer500());
                 // store.dispatch(logoutUser());
@@ -47,7 +47,7 @@ export default function (state = initialState,action) {
 
 
             else {
-                console.log(" outside if");
+                console.log(" action.payload ",action.payload.status);
 
                 return action.payload;
 
